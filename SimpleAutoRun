@@ -1,0 +1,9 @@
+// Function to continuously set sprinting flag to true
+function setSprintingLoop() {
+    setInterval(function() {
+        setSprinting({flag: true});
+    }, 50); // Adjust the interval as needed (e.g., 50 milliseconds for every frame)
+}
+
+// Call the function to start the loop
+setSprintingLoop();
