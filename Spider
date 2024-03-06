@@ -1,7 +1,7 @@
-function spiderListener() {
-    if (PluginAPI.player.isCollidedHorizontally) {
-        PluginAPI.player.motionY += 0.2;
+function Jesus() {
+    if (PluginAPI.player.isInWater) {
+        PluginAPI.player.motionY += 0.5;
         PluginAPI.player.reload();
     }
 }
-PluginAPI.addEventListener("update", spiderListener);
+PluginAPI.addEventListener("update", Jesus);
