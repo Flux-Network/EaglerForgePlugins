@@ -1,0 +1,7 @@
+function Jesus() {
+    if (PluginAPI.player.isInWater) {
+        PluginAPI.player.motionY += 0.5;
+        PluginAPI.player.reload();
+    }
+}
+PluginAPI.addEventListener("update", Jesus);
